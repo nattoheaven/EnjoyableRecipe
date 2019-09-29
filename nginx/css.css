@@ -1,0 +1,65 @@
+body {
+    text-shadow: white 1px 1px 0px,
+    white -1px 1px 0px,
+    white 1px -1px 0px,
+    white -1px -1px 0px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Sans-Serif;
+}
+
+dt {
+    font-size: 150%;
+}
+
+.header {
+    font-size: 150%;
+}
+
+/*
+h1, h2, p, dl, li, table {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+*/
+
+table, td, th, tr {
+    font-size: inherit;
+    max-height: 100%;
+}
+
+table {
+    border-spacing: 0 1ex;
+}
+
+th {
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.left {
+    float: left;
+    width: 50%;
+}
+
+div.right {
+    float: right;
+    width: 50%;
+}
+
+br.clear {
+    clear: both;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.author {
+    text-align: right;
+    font-size: 75%;
+}
